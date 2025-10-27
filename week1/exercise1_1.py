@@ -50,10 +50,6 @@ class SimpleNeuralNetwork:
     def sigmoid(self, z):
         """Sigmoid activation function."""
         return 1 / (1 + np.exp(-z))
-    
-    def sigmoid_derivative(self, z):
-        """Derivative of sigmoid function."""
-        return self.sigmoid(z) * (1 - self.sigmoid(z))
 
 
 if __name__ == "__main__":

@@ -5,7 +5,6 @@ This exercise explores different activation functions and their properties.
 """
 
 import numpy as np
-import matplotlib.pyplot as plt
 
 
 def sigmoid(x):
